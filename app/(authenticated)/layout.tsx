@@ -1,5 +1,6 @@
 import React from 'react';
 import { TopBarComponent } from './components/layout/TopBar';
+import '../styles/globals.css';
 
 const RootLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   return (

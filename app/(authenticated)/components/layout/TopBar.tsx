@@ -6,7 +6,7 @@ export function TopBarComponent() {
     <div className="bg-gray-800 p-4 flex items-center justify-between">
       <Link href="/" className="flex items-center">
         <Image
-          src="/logo.png"
+          src="/assets/images/logo.png"
           alt="Logo"
           width={32}
           height={32}

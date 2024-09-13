@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "types": ["node"],
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
@@ -18,7 +19,14 @@
       }
     ],
     "paths": {
-      "@/*": ["./app/*"]
+      "@/*": ["./app/*"],
+      "@components/*": ["./app/components/*"],
+      "@styles/*": ["./app/styles/*"],
+      "@lib/*": ["./app/lib/*"],
+      "@config/*": ["./app/config/*"],
+      "@utils/*": ["./app/utils/*"],
+      "@types/*": ["./app/types/*"],
+      "@auth/*": ["./app/(authenticated)/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],

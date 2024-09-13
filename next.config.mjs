@@ -57,6 +57,15 @@ const nextConfig = {
   webpack: (config, { isServer }) => {
     // Exemplo de modificação: adicionar um plugin
     if (!isServer) {
+      config.resolve.fallback = {
+        ...config.resolve.fallback,
+        dns: false,
+        dgram: false,
+        net: false,
+        tls: false,
+        fs: false,
+        crypto: false,
+      };
       config.resolve.fallback.fs = false;
     }
     return config;

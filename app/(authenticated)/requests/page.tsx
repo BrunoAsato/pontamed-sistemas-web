@@ -1,7 +1,11 @@
+'use client';
+
 import React, { useState } from 'react';
 
 const Requests: React.FC = () => {
-  const [documents, setDocuments] = useState([]);
+  const [documents, setDocuments] = useState<
+    Array<{ itemCode: string; category: string; pdfFile: File }>
+  >([]);
   const [itemCode, setItemCode] = useState('');
   const [category, setCategory] = useState('');
   const [pdfFile, setPdfFile] = useState<File | null>(null);

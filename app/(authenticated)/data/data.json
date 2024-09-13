@@ -1,26 +1,26 @@
 [
-    {
-      "icon": "MdDescription",
-      "link": "/requests",
-      "name": "Para pedidos novos e em andamento",
-      "description": "Cancelamento, Alinhamento de Valores e Justificativas"
-    },
-    {
-      "icon": "MdSave",
-      "link": "/",
-      "name": "Salve prompts",
-      "description": "Salve seus melhores prompts para mais tarde."
-    },
-    {
-      "icon": "MdDescription",
-      "link": "/",
-      "name": "Adicione arquivos",
-      "description": "Adicione pdfs, arquivos de texto e planilhas no chat."
-    },
-    {
-      "icon": "MdPublic",
-      "link": "/",
-      "name": "Ative pesquisa",
-      "description": "Ative a pesquisa no google para dados atualizados."
-    }
-  ]
+  {
+    "icon": "MdDescription",
+    "link": "/requests",
+    "name": "Para pedidos novos e em andamento",
+    "description": "Cancelamento, Alinhamento de Valores e Justificativas"
+  },
+  {
+    "icon": "MdSave",
+    "link": "/sales/bionexo",
+    "name": "Comparar Bionexo",
+    "description": "Compara valores de cobranças para o portal Bionexo."
+  },
+  {
+    "icon": "MdDescription",
+    "link": "/",
+    "name": "Adicione arquivos",
+    "description": "Adicione pdfs, arquivos de texto e planilhas no chat."
+  },
+  {
+    "icon": "MdPublic",
+    "link": "/",
+    "name": "Ative pesquisa",
+    "description": "Ative a pesquisa no google para dados atualizados."
+  }
+]
